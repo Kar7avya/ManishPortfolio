@@ -10,6 +10,7 @@
 } */ 
 
 .form {
+  
 
   margin:auto;
   width: 500px;
@@ -67,15 +68,17 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #333;
-  color: #fff;
+  color: #f0ecec;
 }
 
 .formcontainer {
+  backdrop-filter:blur(20px) brightness(200%);
   text-align: left;
+
 }
 
 ::placeholder {
-  color: #999;
+  color: #8d8c8c;
 }
 
 form {

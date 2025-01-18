@@ -9,6 +9,8 @@ import expressjsimage from "../images/expressjs.png";
 import nodejsimage from "../images/node.png";
 import awsimage from "../images/aws.png";
 import dockerimage from "../images/docker.png";
+import numpyimage from "../images/NumPy.png";
+import pandaimage from "../images/Pandas.png";
 import "../styles/Skill.css";// Custom CSS for styling
 
 const Skills = () => {
@@ -20,10 +22,7 @@ const Skills = () => {
           <div className='text-box'>
             <h2>MongoDB</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Used MongoDB as a NoSQL document database, created, queried, and managed collections and documents. Experienced usage of the MongoDB aggregation framework in data analysis and transformation.
             </p>
             <span className='left-container-arrow'></span>
           </div>
@@ -34,10 +33,7 @@ const Skills = () => {
           <div className='text-box'>
             <h2>ExpressJS</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Developed RESTful APIs with Express.js as a Node.js web application framework. Experienced with handling HTTP requests, routing, middleware, and database integration.
             </p>
             <span className='right-container-arrow'></span>
           </div>
@@ -48,10 +44,7 @@ const Skills = () => {
           <div className='text-box'>
             <h2>NodeJS</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Knowledgeable in using Node.js as a JavaScript runtime environment for the development of server-side applications. Experienced in dealing with asynchronous operations, working inside the Node.js event loop, and making services scalable and efficient at the backend.
             </p>
             <span className='left-container-arrow'></span>
           </div>
@@ -62,10 +55,7 @@ const Skills = () => {
           <div className='text-box'>
             <h2>ReactJS</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Experienced in developing and maintaining React applications, including component-based architecture, state management (e.g., Redux, Context API), and API integrations.
             </p>
             <span className='right-container-arrow'></span>
           </div>
@@ -76,10 +66,7 @@ const Skills = () => {
           <div className='text-box'>
             <h2>UI/UX</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            General understanding of the principles of UI/UX design, such as user-centered design, information architecture, and usability. Creating usable and aesthetically pleasing interfaces.
             </p>
             <span className='left-container-arrow'></span>
           </div>
@@ -90,38 +77,30 @@ const Skills = () => {
           <div className='text-box'>
             <h2>Microsoft PowerBI</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Skilled in Power BI for data visualization and business intelligence. Highly skilled in connecting to different sources, creating interactive dashboards, and performing analysis with the help of Power BI features.
             </p>
             <span className='right-container-arrow'></span>
           </div>
         </div>
 
         <div className='container left-container'>
-        <img src="" className="circular" alt="Numpy"  />
+        <img className="circular" style={{ zIndex:'3'}} src={numpyimage} alt="ReactJS"  />
+        
           <div className='text-box'>
             <h2>Numpy</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Know how to use NumPy for numerical computations in Python. Experienced in multidimensional arrays and linear algebra algorithms, as well as advanced techniques for manipulating arrays.
             </p>
             <span className='left-container-arrow'></span>
           </div>
         </div>
 
         <div className='container right-container'>
-        <img src="" className="circular" alt="Panda"  />
+        <img className="circular" style={{ zIndex:'2'}} src={pandaimage} alt="ReactJS"  />
           <div className='text-box'>
-            <h2>Panda</h2>
+            <h2>Pandas</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Experienced in applying Pandas for data manipulation and analysis in Python. Proficient with DataFrames and handling missing data, data cleaning, and exploratory data analysis.
             </p>
             <span className='right-container-arrow'></span>
           </div>
@@ -132,10 +111,7 @@ const Skills = () => {
           <div className='text-box'>
             <h2>GitHub</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Proficient in using Git for version control. Experienced in collaborating on projects using GitHub, creating and managing branches, resolving merge conflicts, and contributing to open-source projects.
             </p>
             <span className='left-container-arrow'></span>
           </div>
@@ -146,10 +122,7 @@ const Skills = () => {
           <div className='text-box'>
             <h2>AWS </h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Familiarity with the use of AWS services such as EC2, S3, and Lambda for cloud-based deployments and infrastructure management.
             </p>
             <span className='right-container-arrow'></span>
           </div>
@@ -160,10 +133,7 @@ const Skills = () => {
           <div className='text-box'>
             <h2>Docker Container</h2>
             <p>
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
-              Loren impsummary for MongoDB Loren impsummary for MongoDB Loren impsummary for MongoDB
+            Experience in the use of Docker containers for packaging, deploying, and orchestrating applications. Familiarity in creating and managing Docker images, deployment of applications using Docker Compose, and understanding concepts in containerization.
             </p>
             <span className='left-container-arrow'></span>
           </div>
