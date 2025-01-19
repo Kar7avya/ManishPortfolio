@@ -44,7 +44,7 @@ function Home() {
   useEffect(() => {
     // Initialize Typed.js when the component mounts
     const options = {
-      strings: ["KARTHAVYA", "AWSCERTIFIED", "Developer", "DataScientist"],
+      strings: ["KARTHAVYA", "Developer", "DataScientist"],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,

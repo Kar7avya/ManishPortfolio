@@ -5,7 +5,7 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Work from "./pages/Work";
-import View from "./pages/View";
+// import View from "./pages/View";
 import Skills from "./pages/Skills";
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Work" element={<Work/>}/>
-        <Route path="/view" element={<View/>}/>
+        {/* <Route path="/view" element={<View/>}/> */}
         <Route path="/skills" element={<Skills/>}/>
       </Routes>
     </BrowserRouter>
