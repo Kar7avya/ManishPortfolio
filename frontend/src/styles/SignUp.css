@@ -7,12 +7,10 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-} */ 
+} */
 
 .form {
-  
-
-  margin:auto;
+  margin: auto;
   width: 500px;
   padding: 20px;
   border: 1px solid #ddd;
@@ -72,9 +70,8 @@ input[type="submit"]:hover {
 }
 
 .formcontainer {
-  backdrop-filter:blur(20px) brightness(200%);
+  backdrop-filter: blur(20px) brightness(200%);
   text-align: left;
-
 }
 
 ::placeholder {
@@ -86,9 +83,8 @@ form {
   flex-direction: column;
 }
 
-.card-page{
+.card-page {
   height: 50rem;
   background-size: auto;
-  background-color:rgb(185, 150, 150) ;
+  background-color: rgb(185, 150, 150);
 }
-

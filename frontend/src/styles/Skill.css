@@ -10,13 +10,9 @@ body {
 }
 
 .Timeline{
-
   position: relative;
-
   margin-left: 4rem;
   margin-right: 4rem;
-
-
 }
 
 .container{
@@ -24,8 +20,7 @@ body {
   margin: 1rem 2rem;
   padding: 10px 50px;
   position: relative;
-
-  width:40%;
+  width: 40%;
   animation: movedown 1s linear forwards;
   opacity: 0;
 }
@@ -77,23 +72,20 @@ body {
 }
 
 .text-box{
-  margin-top: 10px;;
-  padding:20px 30px ;
+  margin-top: 10px;
+  padding: 20px 30px;
   background: #fff;
-  position:relative;
-
-  border-radius: 10px ;
+  position: relative;
+  border-radius: 10px;
   box-shadow: 0 0 20px rgb(245, 247, 248);
 }
 
 .left-container{
-  left:10%;
-  
-
+  left: 10%;
 }
 
 .right-container{
-  left:50%;
+  left: 50%;
 }
 
 .container img{
@@ -102,7 +94,7 @@ body {
   border-radius: 50%;
   right: -20px;
   top: 32px;
-  z-index: index 10px;
+  z-index: 10; /* Corrected z-index value */
 }
 
 .right-container img{
@@ -117,8 +109,8 @@ body {
   background: #eeebeb;
   left: 50%;
   top: 0;
-  margin-left:12px;
-  z-index:1;
+  margin-left: 12px;
+  z-index: 1;
   animation: moveline 10s linear forwards;
 }
 
@@ -132,23 +124,21 @@ body {
 }
 
 @media screen and (max-width: 600px){
-
   .Timeline{
     margin: 50px auto;
   }
 
   .Timeline::after{
-
-    left :31px;
+    left: 31px;
   }
   .container{
-    width:100%;
+    width: 100%;
     padding-left: 80px;
     padding-right: 25px;
   }
 
   .text-box{
-    font-size:13px ;
+    font-size: 13px;
   }
   .text-box small{
     margin-bottom: 10px;
@@ -160,16 +150,13 @@ body {
     left: 0px;
   }
 
-  .left-container img,.right-container img{
+  .left-container img, .right-container img{
     left: 10px;
   }
 
   .left-container-arrow{
-    
-
   }
 }
-
 
 .text-box h2{
   font-size: 2rem;
@@ -177,19 +164,19 @@ body {
 }
 
 .text-box small {
-  display:inline-block;
-  margin-bottom:15px;
+  display: inline-block;
+  margin-bottom: 15px;
 }
 
 .left-container-arrow{
   height: 0;
   width: 0;
   position: absolute;
-  margin-left:15.6rem;
-  top:28px;
+  margin-left: 15.6rem;
+  top: 28px;
   z-index: 1;
-  border-top:20px solid transparent;
-  border-bottom:20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
   border-left: 20px solid rgb(255, 255, 255);
   right: -15px;
 }
@@ -198,19 +185,17 @@ body {
   height: 0;
   width: 0;
   position: absolute;
-  
-  top:28px;
+  top: 28px;
   z-index: 1;
-  border-top:20px solid transparent;
-  border-bottom:20px solid transparent;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
   border-right: 20px solid rgb(255, 255, 255);
-  left:-15px;
+  left: -15px;
 }
 
 .circular {
   width: 200px;
   height: 50px;
-  
   border-radius: 50%;
   border-color: black;
   background-color: white; /* White background */
