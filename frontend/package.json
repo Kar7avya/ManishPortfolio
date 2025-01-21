@@ -29,8 +29,11 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "eslint": "^7.11.0",
+    "eslint": "^8.0.0",
     "eslint-config-react-app": "^7.0.1"
+  },
+  "resolutions": {
+    "eslint": "^8.0.0"
   },
   "eslintConfig": {
     "extends": "react-app"
