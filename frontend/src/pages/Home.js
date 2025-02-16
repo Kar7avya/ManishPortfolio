@@ -308,7 +308,7 @@ function Home() {
           <span className=" display-1 fw-bolder auto-type"></span>
           <br />
           <p className="fullstack-text  navy-text">
-          I am a Fullstack Developer skilled in building dynamic web applications using technologies like ReactJS, Node.js, and MongoDB. With expertise in AWS, I create scalable, secure solutions leveraging services like S3 and Lambda. As I transition into Data Science, I aim to harness the power of data to solve real-world problems.
+          I am a <b>Fullstack Developer</b> skilled in building dynamic web applications using technologies like <b>ReactJS, Node.js, and MongoDB</b>. With expertise in <b>AWS</b>, I create scalable, secure solutions leveraging services like <b>S3</b> and <b>Lambda</b>. As I transition into <b>Data Science</b>, I aim to harness the power of data to solve real-world problems.
           </p>
         </div>
         
@@ -320,24 +320,6 @@ function Home() {
       
       <div className="row margin-left">
         {/* First Column */}
-        <div className="text-center col-lg-3 col-md-10 col-sm-10">
-          <div className="card" style={{ width: "100%" }}>
-            <div className="card-body">
-              <h5 className="card-title navy-text">DPS Raipur</h5>
-              <h6 className="card-subtitle text-success">Class 10</h6>
-              <p className="card-text">91.4%</p>
-            </div>
-          </div>
-        </div>
-        <div className="text-center col-lg-3 col-md-10 col-sm-10">
-          <div className="card" style={{ width: "100%" }}>
-            <div className="card-body">
-              <h5 className="card-title navy-text">Gyan Ganga</h5>
-              <h6 className="card-subtitle text-success">Class 12</h6>
-              <p className="card-text">80%</p>
-            </div>
-          </div>
-        </div>
 
         <div className="text-center col-lg-4 col-md-10 col-sm-10">
           <div className="card" style={{ width: "100%" }}>
@@ -348,6 +330,30 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <div className="text-center col-lg-3 col-md-10 col-sm-10">
+          <div className="card" style={{ width: "100%" }}>
+            <div className="card-body">
+              <h5 className="card-title navy-text">Gyan Ganga</h5>
+              <h6 className="card-subtitle text-success">Class 12</h6>
+              <p className="card-text">80%</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div className="text-center col-lg-3 col-md-10 col-sm-10">
+          <div className="card" style={{ width: "100%" }}>
+            <div className="card-body">
+              <h5 className="card-title navy-text">DPS Raipur</h5>
+              <h6 className="card-subtitle text-success">Class 10</h6>
+              <p className="card-text">91.4%</p>
+            </div>
+          </div>
+        </div>
+        
+        
       </div>
     </Layout>
   );

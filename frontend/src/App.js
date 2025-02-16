@@ -13,10 +13,12 @@ function App() {
      
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Work" element={<Work/>}/>
-        {/* <Route path="/view" element={<View/>}/> */}
         <Route path="/skills" element={<Skills/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
+        
+        {/* <Route path="/view" element={<View/>}/> */}
+        
       </Routes>
     </BrowserRouter>
   );

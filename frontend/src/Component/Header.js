@@ -35,17 +35,20 @@ function Header() {
         <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`} id="navbarNav">
         <ul className="navbar-nav mx-auto custom-nav-margin primary display-1">
             <li className="nav-item mx-5">
-              <Link className="nav-link text-light " to="/">Home</Link>
+              <Link className="nav-link text-light fw-bolder " to="/">Home</Link>
             </li>
+            
+            <li className="nav-item mx-5">
+              <Link className="nav-link text-light  fw-bolder" to="/Work">Work</Link>
+            </li>
+            <li className="nav-item mx-5">
+              <Link className="nav-link text-light fw-bolder " to="/skills">Skills</Link>
+            </li>
+
             <li className="nav-item mx-5 ">
-              <Link className="nav-link text-light " to="/Contact">Contact</Link>
+              <Link className="nav-link text-light fw-bolder " to="/Contact">Contact</Link>
             </li>
-            <li className="nav-item mx-5">
-              <Link className="nav-link text-light " to="/Work">Work</Link>
-            </li>
-            <li className="nav-item mx-5">
-              <Link className="nav-link text-light" to="/skills">Skills</Link>
-            </li>
+
           </ul>
         </div>
       </div>
