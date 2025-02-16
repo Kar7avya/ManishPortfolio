@@ -1,0 +1,65 @@
+import React, { useEffect } from "react";
+import Layout from "../Component/Layout";
+import "../styles/Home.css"; // Ensure you have the correct path to your custom CSS file
+import Typed from "typed.js";
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+
+function Contact() {
+  useEffect(() => {
+    const options = {
+      strings: ["KARTHAVYA", "Developer", "DataScientist"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true,
+    };
+    const typed = new Typed(".auto-type", options);
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
+  return (
+    <Layout>
+      <div className="section">
+        <div className="container">
+          <div className="content-section">
+            <div className="title">
+              <p>
+                Welcome to <br />
+              </p>
+            </div>
+            <div className="content">
+              <h3>
+                I am a Fullstack Developer skilled in building dynamic web
+                applications using technologies like ReactJS, Node.js, and
+                MongoDB. With expertise in AWS, I create scalable, secure
+                solutions leveraging services like S3 and Lambda. As I
+                transition into Data Science, I aim to harness the power of data
+                to solve real-world problems. My passion lies in combining
+                development and data to drive impactful insights and decisions.
+              </h3>
+            </div>
+            <div className="social">
+              <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
+              <a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+            </div>
+          </div>
+          <div class="image-section">
+            <img
+              className="profileimage"
+              src={profileimage}
+              alt="profile"
+             
+            />
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
+}
+
+export default Contact;

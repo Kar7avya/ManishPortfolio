@@ -1,43 +1,34 @@
-.navbar{
-    position:relative;
-    display:flex;
-    background-color: rgb(30, 87, 117);
-    font-size: 20px;
-    color:rgb(206, 203, 201);
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 40px  7px ;
-
+.navbar {
+  background-color: rgb(30, 87, 117) !important;
+  font-size: 20px;
+  color: rgb(206, 203, 201);
+  border-radius: 1px 10px 10px 10px;
 }
 
-.brand-name img {
-
-    margin-left: 2px;
-    margin-top: 10px;
-    border-radius: 100%; /* Makes the image circular */
-    width: 50px; /* Adjust the size of the image */
-    height: 50px; /* Adjust the size of the image */
-    object-fit:cover; /* Ensures the image fits within the circle */
-    justify-content:flex-end;
-  }
-  
-
-.brand-name{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 34px;
-    font-weight: 700;
-    margin-left:1%;
-    color: rgb(198, 239, 234);
+.navbar-brand img {
+  margin-left: 2px;
+  margin-top: 10px;
+  border-radius: 100%; /* Makes the image circular */
+  width: 50px; /* Adjust the size of the image */
+  height: 50px; /* Adjust the size of the image */
+  object-fit: cover; /* Ensures the image fits within the circle */
 }
 
-.navbar-inner{
-    color: rgb(197, 201, 206);
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: rgb(198, 239, 234);
 }
 
-#Links{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+
+
+.navbar-toggler {
+  border-color: rgb(255, 255, 255);
 }
+
+.navbar-toggler-icon {
+  color: rgb(255, 255, 255);
+}
+
+/* Custom class to add margin to the left of the nav links */
