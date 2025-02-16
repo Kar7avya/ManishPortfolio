@@ -10,7 +10,7 @@ function Work() {
   return (
     <Layout>
       <div className="row text-center my-5">
-        <h1 className="display-4">Certificates</h1>
+        <h1 className="display-4">Experience</h1>
       </div>
       <div className="row mt-4 mx-2">
         <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
@@ -29,9 +29,9 @@ function Work() {
           <div className="card rounded-5 h-100">
             <img src={awscard} className="card-img-top" alt="AWS Certificate" />
             <div className="card-body">
-              <h5 className="card-title display-4">AWS Certificate</h5>
+              <h5 className="card-title display-4">AWS Project</h5>
               <p className="card-text display-5">
-                This is a certificate for the completion of the AWS course.
+                Framework of the project I did by combining bookstore management website with AWS services is illustrated here.
               </p>
             </div>
           </div>

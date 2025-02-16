@@ -307,9 +307,14 @@ function Home() {
         <div className="text-center  col-lg-8 col-md-8 col-sm-12">
           <span className=" display-1 fw-bolder auto-type"></span>
           <br />
-          <p className="fullstack-text  navy-text">
-          I am a <b>Fullstack Developer</b> skilled in building dynamic web applications using technologies like <b>ReactJS, Node.js, and MongoDB</b>. With expertise in <b>AWS</b>, I create scalable, secure solutions leveraging services like <b>S3</b> and <b>Lambda</b>. As I transition into <b>Data Science</b>, I aim to harness the power of data to solve real-world problems.
-          </p>
+          <p className="fullstack-text navy-text">
+  I am a <b>Fullstack Developer</b> skilled in building dynamic web applications using technologies like <b>ReactJS, Node.js, and MongoDB</b>. With expertise in <b>AWS</b>, I create scalable, secure solutions leveraging services like <b>S3</b> and <b>Lambda</b>. As I transition into <b>Data Science</b>, I aim to harness the power of data to solve real-world problems.
+</p>
+<br/>
+<p className="fullstack-text "><b>Phone No</b> - +917869953565</p>
+
+<p className="fullstack-text "><b>Mail Id</b> - karthavyasrivastava@gmail.com</p>
+
         </div>
         
         {/* Second Column */}
