@@ -11,6 +11,8 @@ import awsimage from "../images/aws.png";
 import dockerimage from "../images/docker.png";
 import numpyimage from "../images/NumPy.png";
 import pandaimage from "../images/Pandas.png";
+import uiuximage from "../images/uiux.png";
+import powerbiimage from "../images/powerBI.png";
 import "../styles/Skill.css";// Custom CSS for styling
 
 const Skills = () => {
@@ -18,7 +20,7 @@ const Skills = () => {
     <Layout>
       <div className='Timeline ' style={{ borderRadius:"10px" }}> 
         <div className='container left-container'>
-        <img className="circular" style={{ zIndex:'2'}} src={mongodbimage} alt="MongoDB"  />
+        <img className="circular"  src={mongodbimage} alt="MongoDB"  />
         
           <div className='text-box display-4'>
             <h1>MongoDB</h1>
@@ -32,7 +34,7 @@ const Skills = () => {
         </div>
 
         <div className=  'container right-container'>
-        <img className="circular" style={{ zIndex:'2'}} src={expressjsimage} alt="ExpressJS"  />
+        <img className="circular"  src={expressjsimage} alt="ExpressJS"  />
           <div className='text-box display-4'>
             <h1>ExpressJS</h1>
             <p>
@@ -54,7 +56,7 @@ const Skills = () => {
         </div>
 
         <div className=  'container right-container'>
-        <img className="circular" style={{ zIndex:'2'}} src={reactimage} alt="ReactJS"  />
+        <img className="circular"  src={reactimage} alt="ReactJS"  />
           <div className='text-box display-4'>
             <h1>ReactJS</h1>
             <p>
@@ -68,6 +70,7 @@ const Skills = () => {
         
           <div className='text-box display-4'>
             <h1>UI/UX</h1>
+            <img className="circular"  src={uiuximage} alt="NodeJS"  />
             <p>
             General understanding of the principles of UI/UX design, such as user-centered design, information architecture, and usability. Creating usable and aesthetically pleasing interfaces.
             </p>
@@ -76,7 +79,7 @@ const Skills = () => {
         </div>
 
         <div className=  'container right-container'>
-        <img src="" className="circular"alt="Microsoft PowerBI"  />
+        <img className="circular"  src={powerbiimage} alt="ReactJS"  />
           <div className='text-box display-4'>
             <h1>Microsoft PowerBI</h1>
             <p>
@@ -99,7 +102,7 @@ const Skills = () => {
         </div>
 
         <div className=  'container right-container'>
-        <img className="circular" style={{ zIndex:'2'}} src={pandaimage} alt="ReactJS"  />
+        <img className="circular"  src={pandaimage} alt="ReactJS"  />
           <div className='text-box display-4'>
             <h1>Pandas</h1>
             <p>
@@ -110,7 +113,7 @@ const Skills = () => {
         </div>
 
         <div className='container left-container'>
-        <img className="circular" style={{ zIndex:'2'}} src={githubimage} alt="ReactJS"  />
+        <img className="circular"  src={githubimage} alt="ReactJS"  />
           <div className='text-box display-4'>
             <h1>GitHub</h1>
             <p>
@@ -121,7 +124,7 @@ const Skills = () => {
         </div>
 
         <div className=  'container right-container'>
-        <img className="circular" style={{ zIndex:'2'}} src={awsimage} alt="ReactJS"  />
+        <img className="circular"  src={awsimage} alt="ReactJS"  />
           <div className='text-box display-4'>
             <h1>AWS </h1>
             <p>
@@ -132,7 +135,7 @@ const Skills = () => {
         </div>
 
         <div className='container left-container'>
-        <img className="circular" style={{ zIndex:'2'}} src={dockerimage} alt="ReactJS"  />
+        <img className="circular"  src={dockerimage} alt="ReactJS"  />
           <div className='text-box display-4'>
             <h1>Docker Container</h1>
             <p>

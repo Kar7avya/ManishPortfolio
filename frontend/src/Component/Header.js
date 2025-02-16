@@ -17,7 +17,7 @@ function Header() {
           <img
             src="https://t4.ftcdn.net/jpg/01/09/64/21/240_F_109642196_jjSpItOl0x0NV9hjX0Uj5YjOJ7bGzOTY.jpg"
             alt="logo"
-            className="d-inline-block align-text-top rounded-circle w-50 h-25 w-lg-50 h-lg-25 w-md-25 h-md-25 w-sm-25 h-sm-25"
+            className="d-inline-block align-text-top rounded-circle w-lg-50 h-lg-50  w-md-25 h-md-25 w-sm-25 h-sm-25"
             
           />
       
