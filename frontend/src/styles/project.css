@@ -19,12 +19,13 @@
 
 /* Work Header Section */
 .work-header {
-  background: linear-gradient(135deg, #112683 0%, #ced2d9 100%);
+  background: linear-gradient(135deg, #112683 0%, #24395f 100%);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   color: white;
   position: relative;
   overflow: hidden;
+  margin-top: -5.3rem;
 }
 
 .work-header::before {
