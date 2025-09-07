@@ -173,14 +173,7 @@ function Header() {
             {/* Professional Actions */}
             <div className="navbar-actions d-none d-lg-flex ms-3">
               <div className="action-buttons">
-                <a 
-                  href="tel:7747013556" 
-                  className="btn btn-outline-light btn-sm me-2 action-btn"
-                  title="Call Now"
-                >
-                  <i className="fas fa-phone me-1"></i>
-                  Call
-                </a>
+               
                 <Link 
                   to="/Contact" 
                   className="btn btn-light btn-sm action-btn"
