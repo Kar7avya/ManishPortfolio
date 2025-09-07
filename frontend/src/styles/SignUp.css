@@ -30,7 +30,7 @@
   min-height: 300px;
   display: flex;
   align-items: center;
-  margin-top:-4rem;
+  margin-top:-2rem;
 }
 
 .contact-hero::before {
