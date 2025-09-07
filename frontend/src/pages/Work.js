@@ -147,22 +147,22 @@ image: adani,
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 text-center">
-              <h1 className="display-3 py-5 fw-bold text-dark mb-3">Professional Experience</h1>
-              <p className="lead text-muted fs-4">
-                25+ Years of Leadership Excellence in Power Generation & Electrical Engineering
+              <h1 className="display-3 py-5 fw-bold text-light mb-3">Professional Experience</h1>
+              <p className="lead text-light fs-4">
+                30+ Years of Leadership Excellence in Power Generation & Electrical Engineering
               </p>
               <div className="header-stats d-flex justify-content-center flex-wrap gap-4 mt-4">
                 <div className="stat-item text-center">
-                  <div className="stat-number display-6 fw-bold text-primary">25+</div>
-                  <div className="stat-label text-muted">Years Experience</div>
+                  <div className="stat-number display-6 fw-bold text-primary">30+</div>
+                  <div className="stat-label text-light">Years Experience</div>
                 </div>
                 <div className="stat-item text-center">
                   <div className="stat-number display-6 fw-bold text-success">4</div>
-                  <div className="stat-label text-muted">Major Companies</div>
+                  <div className="stat-label text-light">Major Companies</div>
                 </div>
                 <div className="stat-item text-center">
                   <div className="stat-number display-6 fw-bold text-warning">1600+</div>
-                  <div className="stat-label text-muted">MW Capacity</div>
+                  <div className="stat-label text-light">MW Capacity</div>
                 </div>
               </div>
             </div>
