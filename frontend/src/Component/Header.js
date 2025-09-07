@@ -22,7 +22,7 @@ function Header() {
         <div className="container-fluid">
           {/* Brand Logo and Name */}
           <Link className="navbar-brand d-flex align-items-center" to="/" onClick={closeMenu}>
-    {*
+    {/*
             <img
               src="https://t4.ftcdn.net/jpg/01/09/64/21/240_F_109642196_jjSpItOl0x0NV9hjX0Uj5YjOJ7bGzOTY.jpg"
               alt="Manish Kumar Logo"
@@ -33,7 +33,7 @@ function Header() {
                 objectFit: 'cover'
               }}
             />
-              *}
+              */}
             <span className="ms-2 fw-bold d-none d-sm-inline">Manish Kumar</span>
           </Link>
 
