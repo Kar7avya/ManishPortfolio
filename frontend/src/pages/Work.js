@@ -62,6 +62,8 @@ import "../styles/project.css";
 import adani from "../images/Adani.jpg";
 import lanco from "../images/lanco.jpg";
 import gmr from "../images/gmr.png";
+import KSFL from "../images/gmr.png";
+
 function Work() {
   const workExperience = [
     {
@@ -154,7 +156,7 @@ image: adani,
   ],
   icon: "fas fa-bolt",
   color: "success",
-  image: reliance,   // replace with actual image variable
+  image: Reliance,   // replace with actual image variable
   current: false
 },
 {
@@ -173,7 +175,7 @@ image: adani,
   ],
   icon: "fas fa-industry",
   color: "warning",
-  image: kribhco,   // replace with actual image variable
+  image: KSFL,   // replace with actual image variable
   current: false
 },
 {
@@ -192,7 +194,7 @@ image: adani,
   ],
   icon: "fas fa-tools",
   color: "danger",
-  image: jyoti,   // replace with actual image variable
+  image: Jyoti,   // replace with actual image variable
   current: false
 }
 
