@@ -137,7 +137,66 @@ image: adani,
       icon: "fas fa-flash",
       color: "info",
       image: lanco
-    }
+    },
+        {
+  id: 5,
+  position: "Lead Manager - Electrical",
+  company: "Reliance Industries Limited",
+  duration: "September 2007 - May 2011",
+  period: "3 years 9 months",
+  location: "Jamnagar Area, India",
+  description: "Electrical commissioning and operations & maintenance in large-scale industrial facilities",
+  responsibilities: [
+    "Handled electrical commissioning activities",
+    "Led O&M for electrical systems",
+    "Ensured reliability of power distribution systems",
+    "Coordinated with cross-functional teams for smooth operations"
+  ],
+  icon: "fas fa-bolt",
+  color: "success",
+  image: reliance,   // replace with actual image variable
+  current: false
+},
+{
+  id: 6,
+  position: "Electrical Manager",
+  company: "KRIBHCO Shyam Fertilizer Ltd",
+  duration: "1997 - 2007",
+  period: "10 years",
+  location: "India",
+  description: "Managed electrical operations and maintenance for fertilizer manufacturing plant",
+  responsibilities: [
+    "Led electrical maintenance and reliability programs",
+    "Ensured uninterrupted power supply for plant operations",
+    "Supervised installation and commissioning of electrical equipment",
+    "Implemented safety and compliance measures"
+  ],
+  icon: "fas fa-industry",
+  color: "warning",
+  image: kribhco,   // replace with actual image variable
+  current: false
+},
+{
+  id: 7,
+  position: "Service Engineer",
+  company: "Jyoti Ltd.",
+  duration: "November 1994 - June 1997",
+  period: "2 years 8 months",
+  location: "New Delhi Area, India",
+  description: "Handled high-voltage switchgear installations and services across Northern India",
+  responsibilities: [
+    "Installed and serviced HV switchgear systems",
+    "Provided technical support for client sites",
+    "Ensured operational efficiency of switchgear equipment",
+    "Covered installations across Northern India region"
+  ],
+  icon: "fas fa-tools",
+  color: "danger",
+  image: jyoti,   // replace with actual image variable
+  current: false
+}
+
+        
   ];
 
   return (
