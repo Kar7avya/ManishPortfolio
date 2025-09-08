@@ -105,7 +105,7 @@ image: adani,
     {
       id: 3,
       position: "General Manager",
-      company: "Raipur Energen Limited",
+      company: "GMR Power Limited",
       duration: "2015 - 2021",
       period: "6 years",
       location: "Raipur, Chhattisgarh, India",
