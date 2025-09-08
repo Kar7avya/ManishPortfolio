@@ -62,7 +62,9 @@ import "../styles/project.css";
 import adani from "../images/Adani.jpg";
 import lanco from "../images/lanco.jpg";
 import gmr from "../images/gmr.png";
-import KSFL from "../images/gmr.png";
+import KSFL from "../images/KSFL.jpg";
+import Reliance from "../images/Reliance.png";
+import Jyoti from "../images/Jyoti.png";
 
 function Work() {
   const workExperience = [
